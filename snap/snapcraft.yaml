@@ -1,0 +1,28 @@
+---
+
+name: graphpath
+version: 'v1.0'
+summary: Graphpath generates an ASCII network diagram from the route table
+description: |
+  Graphpath generates an ASCII network diagram from the route table. This
+  is a script made by https://github.com/ocochard/graphpath
+
+grade: stable
+confinement: strict
+
+apps:
+  graphpath:
+    command: bin/graphpath
+    plugs:
+      - network
+      - network-observe
+
+parts:
+  graphpath:
+    plugin: dump
+    source: https://github.com/ocochard/graphpath.git
+    source-tag: $SNAPCRAFT_PROJECT_VERSION
+    organize:
+      graphpath: bin/graphpath
+    stage:
+      - bin/graphpath
