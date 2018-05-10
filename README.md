@@ -1,5 +1,7 @@
 # snap-graphpath
 
+[![Snap Status](https://build.snapcraft.io/badge/nsg/snap-graphpath.svg)](https://build.snapcraft.io/user/nsg/snap-graphpath)
+
 This repo contains the sources of the snap `graphpath`.
 
 ```
