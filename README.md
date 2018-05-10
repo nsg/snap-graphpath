@@ -1,9 +1,13 @@
 # snap-graphpath
 
-This repo contains the sources of the snap `graphpath`. This snap is just a packaging
-of the shell script graphpath hosted at
-[github.com/ocochard/graphpath](https://github.com/ocochard/graphpath).
+This repo contains the sources of the snap `graphpath`.
 
+```
+snap install graphpath
+```
+
+This snap is just a packaging of the shell script graphpath hosted at
+[github.com/ocochard/graphpath](https://github.com/ocochard/graphpath).
 The upstream project is a tool for the [BSD Router Project](https://bsdrp.net).
 This snap makes most sense to be executed on a server that acts as a router.
 
