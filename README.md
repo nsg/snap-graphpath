@@ -29,10 +29,11 @@ sandbox that snapd provides.
 * Execute the script directly, for example `/snap/graphpath/current/bin/graphpath`
   or possible `/var/lib/snapd/snap/current/bin/graphpath`.
 
-If this works, the problem is the packaging, feel free to open a
+If this works, the problem is in the packaging, feel free to open an
 [issue](https://github.com/nsg/snap-graphpath/issues) and report the problem.
 Still the same problem? Open a upstream issue at
-[ocochard/graphpath](https://github.com/ocochard/graphpath) and report the issue.
+[ocochard/graphpath](https://github.com/ocochard/graphpath/issues) and report
+the issue.
 
 ### New version?
 
