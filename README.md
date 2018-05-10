@@ -20,6 +20,24 @@ your system. You need to connect that interface to grant graphpath access:
 snap connect graphpath:network-observe
 ```
 
+## Report a bug/problem
+
+This repository only package the upstream project. If you think you have found
+a problem with graphpath, first make sure that it works outside the security
+sandbox that snapd provides.
+
+* Execute the script directly, for example `/snap/graphpath/current/bin/graphpath`
+  or possible `/var/lib/snapd/snap/current/bin/graphpath`.
+
+If this works, the problem is the packaging, feel free to open a
+[issue](https://github.com/nsg/snap-graphpath/issues) and report the problem.
+Still the same problem? Open a upstream issue at
+[ocochard/graphpath](https://github.com/ocochard/graphpath) and report the issue.
+
+### New version?
+
+Make a PR that updates [this line](https://github.com/nsg/snap-graphpath/blob/master/snap/snapcraft.yaml#L4) or open a [issue](https://github.com/nsg/snap-graphpath/issues).
+
 ## Example
 
 ```
