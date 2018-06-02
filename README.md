@@ -13,15 +13,6 @@ This snap is just a packaging of the shell script graphpath hosted at
 The upstream project is a tool for the [BSD Router Project](https://bsdrp.net).
 This snap makes most sense to be executed on a server that acts as a router.
 
-## Permissions
-
-The script needs `network-observe` to access the needed network information from
-your system. You need to connect that interface to grant graphpath access:
-
-```
-snap connect graphpath:network-observe
-```
-
 ## Report a bug/problem
 
 This repository only package the upstream project. If you think you have found
